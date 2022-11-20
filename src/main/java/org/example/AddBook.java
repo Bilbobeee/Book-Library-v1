@@ -1,12 +1,13 @@
 package org.example;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class AddBook {
 
-    private ArrayList<Book> listBooks = new ArrayList<>();
+    private List<Book> listBooks = new ArrayList<>();
 
-    public ArrayList<Book> getListBooks() {
+    public List<Book> getListBooks() {
         return listBooks;
     }
 

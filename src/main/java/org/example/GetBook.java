@@ -1,10 +1,10 @@
 package org.example;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public class GetBook {
 
-    public ArrayList<Book> getBooksList(){
+    public List<Book> getBooksList(){
         AddBook getBooks = new AddBook();
         return getBooks.getListBooks();
     }

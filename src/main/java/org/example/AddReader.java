@@ -1,10 +1,11 @@
 package org.example;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class AddReader {
 
-        private ArrayList<Reader> listReaders = new ArrayList<>();
+        private List<Reader> listReaders = new ArrayList<>();
 
     public AddReader() {
         listFillingReaders(new Reader(1,"Liana"));
@@ -12,7 +13,7 @@ public class AddReader {
         listFillingReaders(new Reader(3,"Mark"));
     }
 
-    public ArrayList<Reader> getListReaders() {
+    public List<Reader> getListReaders() {
         return listReaders;
     }
 
