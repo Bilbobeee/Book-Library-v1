@@ -15,7 +15,6 @@ public class Book {
         return id;
     }
 
-
     public String getName() {
         return name;
     }

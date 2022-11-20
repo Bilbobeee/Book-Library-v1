@@ -1,5 +1,6 @@
 package org.example;
 
+
 public class Reader {
     private int id;
     private String name;
@@ -9,7 +10,6 @@ public class Reader {
         this.name = name;
     }
 
-
     public int getId() {
         return id;
     }
@@ -17,4 +17,5 @@ public class Reader {
     public String getName() {
         return name;
     }
+
 }
